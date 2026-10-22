@@ -65,5 +65,3 @@ The objective is to transform insurance data into meaningful insights that can h
 ## Project Status
 Dashboard development and initial SQL analysis have been completed. KPI validation and final documentation are in progress.
 
-## Author
-Khyati Dawara
