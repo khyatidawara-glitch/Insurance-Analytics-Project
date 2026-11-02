@@ -1,67 +1,169 @@
+
 # Insurance Analytics Project
 
 ## Project Overview
-This project focuses on analyzing insurance branch performance and insurance policy data using Microsoft Excel, Power BI, Tableau, and MySQL.
 
-The project is divided into two analytical areas:
-1. **Branch Analytics** — revenue, branch performance, account executive performance, opportunities, invoices, budgets, and brokerage.
-2. **Policy Analytics** — policies, customers, claims, payment history, policy types, and renewals.
+The Insurance Analytics Project focuses on analyzing insurance business performance through two independent analytical projects: **Branch Analytics** and **Policy Analytics**.
+
+The project involves analyzing business revenue, branch performance, account executive productivity, insurance policies, customer demographics, claims, payment history, and renewal trends.
+
+Using Microsoft Excel, Power BI, Tableau, and MySQL, the project transforms raw insurance data into meaningful insights through data analysis, KPI calculations, SQL queries, and interactive dashboards.
+
+---
 
 ## Tools & Technologies
-- Microsoft Excel
-- Microsoft Power BI
-- Tableau
-- MySQL
 
-## Project 1: Branch Analytics
+- **Microsoft Excel:** Data cleaning, analysis, KPI calculations, pivot tables, and dashboards.
+- **Power BI:** Data transformation, data modeling, DAX, and interactive dashboards.
+- **Tableau:** Data visualization and interactive business dashboards.
+- **MySQL:** Database creation, data cleaning, SQL queries, and KPI analysis.
 
-### Areas Analyzed
-- Branch-wise revenue
-- Renewal budget achievement
-- Open opportunity counts
-- Top won opportunities
-- Average invoice value
-- Revenue by client
-- Account executive performance
+---
 
-### Data Sources
-- Account executive details
-- Opportunities
-- Meetings
-- Invoices
-- Individual budgets
-- Fees
-- Brokerage
+# Project 1: Branch Analytics
 
-## Project 2: Policy Analytics
+## Overview
 
-### Areas Analyzed
-- Total policies and customers
-- Claim amounts
-- Age-group-wise policy counts
-- Gender-wise policy counts
-- Policies expiring in 2026
-- Policy-type distribution
-- Claim status
-- Payment status
-- Premiums and coverage
+Branch Analytics focuses on evaluating insurance branch performance, revenue generation, account executive productivity, business opportunities, budgets, invoices, brokerage, and fees.
 
-### Data Sources
-- Policy details
-- Customer information
-- Claims
-- Payment history
-- Additional policy fields
+The objective is to understand branch-wise revenue performance, monitor budget achievements, identify top-performing executives, and analyze business opportunities.
 
-## SQL Analysis
-MySQL was used for data preparation, column renaming, date conversion, KPI calculations, aggregation, filtering, and grouping.
+### Dataset and Worksheets
 
-## Dashboards
-Dashboards were developed using Excel, Power BI, and Tableau to visualize insurance business performance and support data-driven analysis.
+The Branch Analytics dataset consists of seven worksheets:
 
-## Business Objective
-The objective is to transform insurance data into meaningful insights that can help stakeholders understand branch revenue performance, policy distribution, claims, payment trends, and renewal opportunities.
+1. Dim_account_exe
+2. Opportunity
+3. Meeting
+4. Invoice
+5. Individual Budgets
+6. Fees
+7. Brokerage
 
-## Project Status
-Dashboard development and initial SQL analysis have been completed. KPI validation and final documentation are in progress.
+### Key Performance Indicators (KPIs)
+
+- Total Revenue
+- New Business Achievement %
+- Cross-Sell Achievement %
+- Renewal Achievement %
+- Branch Revenue Comparison
+- Branch-wise Open Opportunity Count
+- Top 10 Won Opportunities
+- Average Invoice Value
+- Revenue per Client
+- Open Pipeline Revenue
+- Total Meetings Held
+- Executive Revenue Performance
+- Branch Revenue vs Budget
+
+## Branch Analytics Dashboards
+
+### 1. Microsoft Excel Dashboard
+
+![Excel Branch Dashboard](Branch-Analytics/Excel-%20Branch%20Dashboard.png)
+
+### 2. Power BI Dashboard
+
+![Power BI Branch Dashboard](Branch-Analytics/PowerBI-%20Branch%20Dashboard.png)
+
+### 3. Tableau Dashboard
+
+![Tableau Branch Dashboard](Branch-Analytics/Tableau-%20Branch%20Dashboard.png)
+
+### SQL Analysis
+
+MySQL was used to perform revenue analysis, budget achievement calculations, opportunity analysis, invoice analysis, and client revenue calculations.
+
+**SQL File:** [Branch Analytics SQL Queries](Branch-Analytics/Branch_Analytics_Queries.sql)
+
+**Project Folder:** [Explore Branch Analytics](Branch-Analytics/)
+
+---
+
+# Project 2: Policy Analytics
+
+## Overview
+
+Policy Analytics focuses on analyzing insurance policy performance, customer demographics, claims, payment history, policy renewals, premiums, and coverage amounts.
+
+The objective is to understand policy distribution, customer profiles, claim trends, payment performance, and overall insurance policy performance.
+
+### Dataset and Worksheets
+
+The Policy Analytics dataset consists of five worksheets:
+
+1. Policy Details
+2. Customer Information
+3. Claims
+4. Payment History
+5. Additional Fields
+
+### Key Performance Indicators (KPIs)
+
+- Total Policies
+- Total Customers
+- Total Claim Amount
+- Total Premium Amount
+- Total Coverage Amount
+- Age Group-wise Policy Count
+- Gender-wise Policy Count
+- Policies Expiring in 2026
+- Policy Type-wise Policy Count
+- Claim Status-wise Claim Count
+- Payment Status-wise Payment Count
+- Policy Status Distribution
+- Payment Method-wise Distribution
+- Payment Frequency-wise Policy Count
+
+## Policy Analytics Dashboards
+
+### 1. Microsoft Excel Dashboard
+
+![Excel Policy Dashboard](Policy-Analytics/Excel-%20Policy%20dashboard.png)
+
+### 2. Power BI Dashboard
+
+![Power BI Policy Dashboard](Policy-Analytics/PowerBI-%20Policy%20dashboard.png)
+
+### 3. Tableau Dashboard
+
+![Tableau Policy Dashboard](Policy-Analytics/Tableau-%20Policy%20Dashboard.png)
+
+### SQL Analysis
+
+MySQL was used for database creation, data cleaning, column renaming, date conversion, customer analysis, policy analysis, claims analysis, payment analysis, and KPI calculations.
+
+**SQL File:** [Policy Analytics SQL Queries](Policy-Analytics/Policy_Analytics_Queries.sql)
+
+**Project Folder:** [Explore Policy Analytics](Policy-Analytics/)
+
+---
+
+## Key Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Working with multiple datasets and relational tables.
+- Data cleaning and data preparation.
+- Writing SQL queries for business analysis.
+- Calculating business KPIs using MySQL.
+- Analyzing revenue, budgets, policies, claims, and payments.
+- Developing dashboards using Excel, Power BI, and Tableau.
+- Creating meaningful data visualizations.
+- Converting raw data into actionable business insights.
+
+---
+
+## Project Objective
+
+The overall objective of this project is to demonstrate practical data analytics skills by using multiple analytical tools to explore insurance business data, identify trends, monitor performance, and support data-driven decision-making.
+
+---
+
+**Project Category:** Data Analytics
+
+**Domain:** Insurance
+
+**Tools:** Excel | Power BI | Tableau | MySQL
+
 
